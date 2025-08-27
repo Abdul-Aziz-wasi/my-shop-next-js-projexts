@@ -1,4 +1,5 @@
 "use client";
+import {  signIn } from "next-auth/react"
 
 import { useState } from "react";
 
@@ -16,9 +17,9 @@ export default function Navbar() {
           <a href="/products" className="text-gray-700 hover:text-orange-400">
             Products
           </a>
-          <a href="/login" className="text-gray-700 hover:text-orange-400">
+          <button onClick={()=>signIn()} className="text-gray-700 hover:text-orange-400">
             Login
-          </a>
+          </button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -39,9 +40,9 @@ export default function Navbar() {
           >
             Products
           </a>
-          <a href="/login" className="block text-gray-700 hover:text-orange-400">
+            <button onClick={()=>signIn()} className="text-gray-700 hover:text-orange-400">
             Login
-          </a>
+          </button>
         </div>
       )}
     </nav>
