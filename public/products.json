@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Tv Pro X",
+    "description": "Powerful laptop for developers",
+    "image": "https://demo.fieldthemes.com/onlineshop/home4/235-large_default/printed-chiffon-dress.jpg",
+    "price": 1200
+  },
+  {
+    "id": 2,
+    "name": "Wireless Headphones",
+    "description": "Noise cancelling over-ear headphones",
+    "image": "https://demo.fieldthemes.com/onlineshop/home4/204-large_default/faded-short-sleeves-tshirt.jpg",
+    "price": 250
+  },
+  {
+    "id": 3,
+    "name": "Smartphone Z",
+    "description": "Latest generation smartphone with amazing camera",
+    "image": "https://demo.fieldthemes.com/onlineshop/home3/213-large_default/printed-summer-dress.jpg",
+    "price": 899
+  }
+]

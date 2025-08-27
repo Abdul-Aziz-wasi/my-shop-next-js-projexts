@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import ProductsPage from "./products/page";
 
 export default function Home() {
   return (
@@ -13,11 +14,12 @@ export default function Home() {
         </p>
         <a 
           href="/products" 
-          className="px-6 py-3 bg-black text-white rounded-lg shadow hover:bg-gray-700 transition"
+          className="px-6 py-3 bg-black text-white rounded-lg shadow hover:text-orange-400 transition"
         >
           Explore Products
         </a>
       </section>
+      <ProductsPage></ProductsPage>
     </div>
   );
 }
